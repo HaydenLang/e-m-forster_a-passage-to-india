@@ -31,10 +31,11 @@ section[epub|type~="dedication"] > *{
 	section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
+}
 
-	section[epub|type~="dedication"] > * + *{
-		margin-top: 3em;
-	}
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
 }
 
 footer{
@@ -56,10 +57,6 @@ footer{
 
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] + p{
