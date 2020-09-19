@@ -57,10 +57,6 @@ footer{
 	display: none;
 }
 
-[epub|type~="z3998:verse"] + p{
-	text-indent: 0;
-}
-
 blockquote.chant{
 	text-align: center;
 }
